@@ -3,5 +3,16 @@
   "version": "1.0.0",
   "repository": "https://github.com/kimjy0301/supergulp",
   "author": "=김지용 <znzld505@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "gulp": "^4.0.2",
+    "@babel/preset-env": "^7.6.2"
+  },
+  "dependencies": {}
 }
